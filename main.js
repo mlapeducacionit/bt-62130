@@ -1,3 +1,3 @@
-import './sass/main.scss'
+import "./sass/main.scss";
 
-console.log(document.querySelector('title').textContent)
+console.log(document.querySelector("title").textContent);
