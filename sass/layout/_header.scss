@@ -1,1 +1,47 @@
+/* ------------------------------------- */
+/* HEADER                                */
+/* ------------------------------------- */
 
+.main-header {
+  display: flex;
+  flex-direction: column;
+}
+
+#menu {
+  display: none;
+}
+
+/* ------------------------------------- */
+/* NAVBAR                                */
+/* ------------------------------------- */
+
+.nav-bar {
+  background-color: mediumaquamarine;
+
+  &__nav-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+  }
+
+  &__nav-item {
+    text-align: center;
+    background-color: pink;
+  }
+
+  &__nav-link {
+    display: block;
+    background-color: purple;
+    color: #fff;
+    padding: 1em 2em;
+    text-decoration: none;
+  }
+}
+
+/* ------------------------------------- */
+/* SEARCH BAR                            */
+/* ------------------------------------- */
+
+/* ------------------------------------- */
+/* MENU TOOGLE                           */
+/* ------------------------------------- */
