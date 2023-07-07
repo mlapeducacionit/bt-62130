@@ -20,4 +20,8 @@
     height: 100%; /* 200px */
     object-fit: cover;
   }
+
+  &__content {
+    padding: 1em;
+  }
 }
