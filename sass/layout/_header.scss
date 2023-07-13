@@ -42,6 +42,49 @@
 /* SEARCH BAR                            */
 /* ------------------------------------- */
 
+.search-bar {
+  background-color: olivedrab;
+  display: flex;
+  justify-content: space-between;
+
+  &__logo-container,
+  &__form-container {
+    padding: 1em;
+  }
+
+  &__logo-container {
+    background-color: yellow;
+  }
+
+  &__form-container {
+    background-color: gold;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+  }
+
+  &__form-label {
+    background-color: greenyellow;
+  }
+
+  &__form-search {
+    background-color: deeppink;
+    width: 70%;
+  }
+
+  &__form-submit {
+    background-color: darkslategray;
+    color: white;
+  }
+
+  &__carrito-container {
+    flex: 0 0 3em; /* shorthand (grow shrink basis */
+    background-color: goldenrod;
+  }
+
+ 
+}
+
 /* ------------------------------------- */
 /* MENU TOOGLE                           */
 /* ------------------------------------- */
