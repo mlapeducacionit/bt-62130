@@ -66,4 +66,33 @@
   &__content {
     padding: 1em;
   }
+
+  @media (min-width: 1024px) {
+    & { /* .card */
+      min-width: 240px;
+    }
+  }
+
+  @media (min-width: 426px) and (max-width: 768px) {
+    & {
+      min-width: 400px;
+      max-width: 500px;
+      height: 200px;
+    }
+
+    &__article { /* .card__article */
+      display: flex;
+    }
+
+    & &__image-container {
+      width: 40%;
+      clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+    }
+    
+    &:hover &__image-container, /* .card:hover .card__image-container */
+    &:focus &__image-container {
+      width: 40%;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+  }
 }
