@@ -12,3 +12,10 @@ npm install
 ```sh
 npm run dev
 ```
+
+
+## Una vez terminado el desarrollo. Puedo buildear el proyecto.
+
+```sh
+npm run build
+```
